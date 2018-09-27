@@ -9,7 +9,7 @@ contract HelloWorld {
         owner = msg.sender;
     }
 
-    function say() constant public returns (string) {
+    function greet() constant public returns (string) {
         return greeting;
     }
 
